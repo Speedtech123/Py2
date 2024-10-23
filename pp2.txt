@@ -1,0 +1,24 @@
+2a. Implement a python program to insert an element into a sorted list.
+Program:
+import bisect
+def insert (list1, n):
+   bisect. insort (list1, n)
+   return list1
+list1 = ['a','b','c','d','e']
+list1.sort()
+n = input("enter an element")
+print(insert(list1, n))
+
+2b. Implement a python program to simulate stack. 
+stack = []
+stack.append('a')
+stack.append('b')
+stack.append('c')
+print(stack)
+ 
+print('\n Elements popped from stack:')
+print(stack.pop())
+print(stack.pop())
+print(stack.pop())
+print('\n Stack after elements are popped:')
+print(stack)
